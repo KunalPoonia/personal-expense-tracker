@@ -1,0 +1,17 @@
+# Backend - FastAPI
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+pydantic-settings
+python-dotenv
+
+# Dashboard - Plotly Dash
+dash
+plotly
+pandas
+
+# Testing
+pytest
+httpx
+faker
