@@ -53,5 +53,5 @@ def init_db():
     Initialize database tables
     Creates all tables defined in models
     """
-    from app.models import Category, Transaction, Budget
+    from app.models import Category, Transaction, Budget, User
     Base.metadata.create_all(bind=engine)
